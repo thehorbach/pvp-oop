@@ -12,6 +12,10 @@
 		110FAB9F1C832BC20039B3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110FAB9D1C832BC20039B3B2 /* Main.storyboard */; };
 		110FABA11C832BC20039B3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110FABA01C832BC20039B3B2 /* Assets.xcassets */; };
 		110FABA41C832BC20039B3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110FABA21C832BC20039B3B2 /* LaunchScreen.storyboard */; };
+		110FABAC1C8332B10039B3B2 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 110FABAB1C8332B10039B3B2 /* Minecraft.ttf */; };
+		110FABAE1C8335890039B3B2 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FABAD1C8335890039B3B2 /* character.swift */; };
+		110FABB21C833A820039B3B2 /* orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FABB11C833A820039B3B2 /* orc.swift */; };
+		110FABB41C833FB50039B3B2 /* knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FABB31C833FB50039B3B2 /* knight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		110FABA01C832BC20039B3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110FABA31C832BC20039B3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110FABA51C832BC20039B3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110FABAB1C8332B10039B3B2 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		110FABAD1C8335890039B3B2 /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		110FABB11C833A820039B3B2 /* orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orc.swift; sourceTree = "<group>"; };
+		110FABB31C833FB50039B3B2 /* knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		110FAB981C832BC20039B3B2 /* Player-vs-Player-OOP */ = {
 			isa = PBXGroup;
 			children = (
+				110FABAB1C8332B10039B3B2 /* Minecraft.ttf */,
 				110FAB991C832BC20039B3B2 /* AppDelegate.swift */,
 				110FAB9B1C832BC20039B3B2 /* ViewController.swift */,
 				110FAB9D1C832BC20039B3B2 /* Main.storyboard */,
 				110FABA01C832BC20039B3B2 /* Assets.xcassets */,
 				110FABA21C832BC20039B3B2 /* LaunchScreen.storyboard */,
 				110FABA51C832BC20039B3B2 /* Info.plist */,
+				110FABAD1C8335890039B3B2 /* character.swift */,
+				110FABB11C833A820039B3B2 /* orc.swift */,
+				110FABB31C833FB50039B3B2 /* knight.swift */,
 			);
 			path = "Player-vs-Player-OOP";
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			files = (
 				110FABA41C832BC20039B3B2 /* LaunchScreen.storyboard in Resources */,
 				110FABA11C832BC20039B3B2 /* Assets.xcassets in Resources */,
+				110FABAC1C8332B10039B3B2 /* Minecraft.ttf in Resources */,
 				110FAB9F1C832BC20039B3B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110FABB41C833FB50039B3B2 /* knight.swift in Sources */,
+				110FABB21C833A820039B3B2 /* orc.swift in Sources */,
+				110FABAE1C8335890039B3B2 /* character.swift in Sources */,
 				110FAB9C1C832BC20039B3B2 /* ViewController.swift in Sources */,
 				110FAB9A1C832BC20039B3B2 /* AppDelegate.swift in Sources */,
 			);
